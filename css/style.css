@@ -1,48 +1,200 @@
 *, *:before, *:after {
   box-sizing: border-box;
 }
+
 body {
   background-color: #333;
-  font-family: sans-serif;
+  font-family: SF Pro Text;
   font-size: 10px;
   }
 
 .container {
   margin: 0 auto;
-  width: 420px;
-  }
-nav {
-  background-color: black;
-  margin: 0 auto;
-  padding: 10px 0px 15px 15px;
-  /*top right bottom left*/
-  position:relative;
-  width: 420px;
-  }
-.restaurant-list {
-background-color: white;
-/*padding-top: 50px;*/
-width: 100%;
+  width: 375px;
 }
- .location{
-  padding: 4% 0px 4% 3%;
+nav {
+  background-color: white;
+  position:relative;
+  height: 168px;
+}
+.fa-chevron-left:before {
+    content: "\f053";
+    color: blue;
+    position: absolute;
+    float: left;
+    margin-left: 8.57px;
+    margin-top: 10px;
+    color: #007AFF;
+}
+.fa-chevron-right:before {
+    content: "\f054";
+    margin-right: 13px;
+    top:20px;
+    position: relative;
+    color: #D1D1D6;
+}
+
+.restaurant-list {
+   background-color: white;
+   /*padding-top: 50px;*/
+   width: 100%;
+}
+
+.location{
+  /* padding: 4% 0px 4% 3%; */
   /*top right bottom left*/
-  border-bottom: 0.5px solid #000000;
-  margin: 0px;
+  border-bottom: 0.5px solid #BCBBC1;
+  /* margin: 0px; */
   width: 100%;
   line-height: 1.2;
-  }
-  .location:hover { background-color: rgba(128,128,128, 0.3);} /* mouse over */
- .h3{
-    font-size: 14px;
-  }
-.h1{
-    font-size: 18px;
-    font-weight: bold;
-  }
-  .arrow{
-    float: right;
-    padding-right: 3%;
-    position: relative;
-    top:-30px;
+  height: 62px;
+  float: left;
+  background-color: white;
+}
+.location:hover { background-color: #EBEBEC;} /* mouse over */
+}
+
+.h2{
+      text-align: center;
+      font-size: 12px;
+      font
+}
+.search{
+      background-color: white;
+      align-items: center;
+      position: relative;
+      padding: 10px;
+}
+.h4{
+      font-size: 17px;
+      background-color: #EBEBEC;
+      position: absolute;
+      bottom: 20px;
+      margin-left: 32px;
+      color: #8E8E93;
+}
+
+.back{
+  font-size: 17px;
+  color:#007AFF;
+  position: relative;
+  bottom: 24.9px;
+  margin-left: 27px;
+}
+.title{
+  font-size: 17px;
+  color: #535353;
+  font-weight: bold;
+  position: relative;
+  bottom: 24.9px;
+  margin-left: 50px;
+}
+.search-box1{
+      padding: 0px;
+      align-items: center;
+      height: 36px;
+      width: 359px;
+      background-color: #EBEBEC;
+      border-radius: 10px;
     }
+.search-box2{
+      padding: 0px;
+      align-items: center;
+      height: 36px;
+      width: 359px;
+      background-color: #EBEBEC;
+      border-radius: 10px;
+      margin-top: -10px;
+}
+.arrow-left{
+      height: 44px;
+}
+
+.next{
+      padding: 0px;
+      /*top right bottom left*/
+      margin: 0px;
+      width: 100%;
+      line-height: 1.2;
+      height:44px;
+      background-color: #F1F1F2;
+}
+.caption{
+      font-size: 17px;
+      display: inline;
+}
+.h1{
+      margin-left: 13px;
+      position: absolute;
+      margin-top: 12px;
+      font-size: 17px;
+      color: #8E8E93;
+      font-weight: 600;
+}
+.h3{
+      display: inline;
+      float: right;
+      margin-right: 13px;
+      margin-top: 12px;
+      font-size: 17px;
+      color: #8E8E93;
+      font-weight: 600;
+}
+
+.h7{
+      float: center;
+      font-size: 17px;
+      color: #8E8E93;
+      font-weight: 600;
+      left:86px;
+      top:12px;
+      position: relative;
+}
+.h2{
+  background-image: url("../images/Top Bar.jpg");
+  background-position: center;
+}
+.status-bar{
+  background-position: center;
+}
+.t1{
+  font-size: 32px;
+  float: left;
+  font-weight: bold;
+  margin-left: 13px;
+  margin-top: 13px;
+  margin-bottom: 13px;
+  color: #535353;
+  width:20px;
+}
+.t2{
+  float: left;
+  font-size: 14px;
+  right: 20px;
+  top:21px;
+  left:55px;
+  position: relative;
+  color: #8E8E93;
+  font-weight: 600;
+  margin-left: 0px;
+  display: block;
+}
+.t3{
+  float: right;
+  font-size: 14px;
+  margin-right: 5px;
+  margin-top: 20px;
+  color: #9A9A9A
+}
+.arrow{
+  float: right;
+}
+.image1{
+margin-left: 11px;
+margin-top: 10px;
+}
+
+.image2{
+  margin-left: 9px;
+  margin-top: 10px;
+}
