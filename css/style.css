@@ -34,13 +34,13 @@ nav {
     color: #D1D1D6;
 }
 
-.restaurant-list {
+.Bus-list {
    background-color: white;
    /*padding-top: 50px;*/
    width: 100%;
 }
 
-.location{
+.location, .location1{
   /* padding: 4% 0px 4% 3%; */
   /*top right bottom left*/
   border-bottom: 0.5px solid #BCBBC1;
@@ -177,13 +177,20 @@ nav {
   color: #8E8E93;
   font-weight: 600;
   margin-left: 0px;
-  display: block;
 }
 .t3{
   float: right;
   font-size: 14px;
   margin-right: 5px;
-  margin-top: 20px;
+  margin-top: 32px;
+  color: #9A9A9A
+}
+.t4{
+  font-weight: bold;
+  float: right;
+  font-size: 14px;
+  margin-right: -84px;
+  margin-top: 9px;
   color: #9A9A9A
 }
 .arrow{
