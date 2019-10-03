@@ -1,3 +1,3 @@
-# css-exercise-three
+# Challenge 
 CSS exercise focused on box model
-# challenge
+
